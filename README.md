@@ -32,6 +32,10 @@
 
 <h2 align="center"> My Ransoware</h2>
 <p align="center">
+    <div align="center">
+    <img src="https://www.creativefabrica.com/wp-content/uploads/2023/04/10/Black-Death-Goat-Skull-Horned-Satan-Graphics-66781062-3-312x208.png" alt="Black Death Goat Skull"/>
+</div>
+
   <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/react%20-%2300D9FF.svg?&style=for-the-badge&logo=react&logoColor=white" />&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/tailwind-css%20-%231572B6.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white" />&nbsp;&nbsp;
