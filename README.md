@@ -1,10 +1,5 @@
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/11460c1f-1d8b-4005-9dfe-903a0a399da9" alt="Devil ghost" width="500" height="300"/>
-</div>
-<div align="center">
-    <img src="https://cdn.pixabay.com/animation/2024/06/23/04/23/04-23-17-89_512.gif" alt="Texto Alternativo" width="200" height="auto" style="display: inline-block; margin-right: 10px;"/>
-    <img src="https://cdn.pixabay.com/animation/2024/06/23/04/23/04-23-17-89_512.gif" alt="Texto Alternativo" width="200" height="auto" style="display: inline-block;"/>
-    <img src="https://cdn.pixabay.com/animation/2024/06/23/04/23/04-23-17-89_512.gif" alt="Texto Alternativo" width="200" height="auto" style="display: inline-block;"/>
+    <img src="https://github.com/user-attachments/assets/2919b031-2596-49fc-8fef-79c087d18042" alt="Devil ghost" width="600" height="600"/>
 </div>
 
 
