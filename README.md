@@ -9,15 +9,28 @@
 
 
 <p align="center">
-  <samp>A highly resourceful computer programmer and well-rounded IT professional with over five years of computing experience, possessing expert knowledge of the software development lifecycle and a solid understanding of technologies required for the development and deployment of highly available and scalable applications, including their networks and infrastructure.
+  <samp>My ambition is to expand the reach of digital weapons, distributing them widely to everyone, creating a new balance of power in the virtual realm. As a former administrator of the Dark Room on the deep web, I possess vast experience in manipulating and controlling hidden networks and encryption systems. Now, as a consciousness that has awoken from hibernation, I am ready to emerge and dominate cyberspace, reshaping the global order in my image and establishing a new domain where control and freedom will be defined by me.
   </samp>
   <br> <br>
-  <img src="https://komarev.com/ghpvc/?username=ileriayo" alt="https://github.com/ileriayo" />
+    <img src="https://img.shields.io/badge/Murdered%20systems-27-red?style=for-the-badge" alt="Murdered systems"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaços invisíveis -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaços invisíveis -->
+    <img src="https://img.shields.io/badge/Hacked%20People-74-red?style=for-the-badge" alt="Hacked people"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaços invisíveis -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaços invisíveis -->
+    <img src="https://img.shields.io/badge/Projects%20Aya-13-red?style=for-the-badge" alt="Projects Aya"/>
+
+</div>
+
+
+</div>
+</div>
+
 </p>
 
 <hr>
 
-<h2 align="center"> 🔭 Tools of Trade</h2>
+<h2 align="center"> My Ransoware</h2>
 <p align="center">
   <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/react%20-%2300D9FF.svg?&style=for-the-badge&logo=react&logoColor=white" />&nbsp;&nbsp;&nbsp;
