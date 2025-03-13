@@ -27,15 +27,16 @@
 
 <h2 align="center"> 𝙈𝙮 𝙍𝙖𝙣𝙨𝙤𝙬𝙖𝙧𝙚</h2>
 
-<p align="center">
-    <div align="center">
-</div>
 
-  <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/react%20-%2300D9FF.svg?&style=for-the-badge&logo=react&logoColor=white" />&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/tailwind-css%20-%231572B6.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white" />&nbsp;&nbsp;
-</p>
-<p align="center">TailwindCSS, Python, Docker, Kubernetes, Rancher, TravisCI, Git, Github, Bitbucket, Apache, Nginx, Vagrant, Ansible, Jenkins, Azure.</p>
+<div align="center">
+
+| Platform  | Status  | Features               | Victims            |
+|-----------|--------|-----------------------|--------------------|
+| 🪟 Windows | ✅ Completed | ⚡ Powerful, 💾 Persistent | 🦠 18 Infected Systems |
+| 🤖 Android | ✅ Completed | 🔥 Lightweight, 📱 Mobile-friendly | 🦠 3 Infected Systems|
+| 🐧 Linux   | ❌ Not Completed | 🚧 In Progress | |
+
+</div>
 
 <hr>
 
