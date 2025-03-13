@@ -1,4 +1,9 @@
 <div align="center">
+    <img src="https://github.com/user-attachments/assets/f992c5f7-c960-4ffe-aa1d-316b0b330065" alt="Descrição da Imagem" width="600" height="100" />
+</div>
+
+
+<div align="center">
     <img src="https://github.com/user-attachments/assets/2919b031-2596-49fc-8fef-79c087d18042" alt="Devil ghost" width="600" height="600"/>
 </div>
 
