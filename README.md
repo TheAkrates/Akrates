@@ -4,7 +4,7 @@
 
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/2919b031-2596-49fc-8fef-79c087d18042" alt="Devil ghost" width="600" height="600"/>
+    <img src="https://github.com/user-attachments/assets/cf637ec8-8ef8-445e-9daf-ca9e98e6ee6a" alt="Devil ghost" width="600" height="600"/>
 </div>
 
 
